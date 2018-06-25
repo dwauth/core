@@ -1,6 +1,6 @@
 {
   "name": "@dwauth/core",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "dwAuth Route Handlers For dwAuth APIs.",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
