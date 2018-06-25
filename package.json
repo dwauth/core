@@ -1,0 +1,30 @@
+{
+  "name": "@dwauth/core",
+  "version": "0.1.1",
+  "description": "dwAuth Route Handlers For dwAuth APIs.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js && standard"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@dwauth/accounts": "dwauth/accounts#master"
+  },
+  "devDependencies": {
+    "appa": "^6.0.0",
+    "memdb": "^1.3.1",
+    "nets": "^3.2.0",
+    "standard": "^8.6.0",
+    "tape": "^4.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
